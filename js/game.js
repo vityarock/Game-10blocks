@@ -13,7 +13,7 @@ function round() {
   let divSelector = randomDivId();
     
     $(divSelector).addClass("target");
-    $(divSelector).text(divSelector.charAt(6)+divSelector.charAt(7));
+    $(divSelector).text(hits+1);
   // (Done)TODO: помечать target текущим номером
     if (firstHitTime == 0) {
         firstHitTime  = new Date().getTime();
